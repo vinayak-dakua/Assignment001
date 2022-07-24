@@ -2,7 +2,7 @@ import openpyxl
 
 def getTestData():
     list = []
-    workBook = openpyxl.load_workbook("C:/Users/vinay/PycharmProjects/Assignment/TestData/TestDataSheet.xlsx")
+    workBook = openpyxl.load_workbook("C:/Users/vinay/PycharmProjects/Assignment001/TestData/TestDataSheet.xlsx")
     sheet = workBook.active
     rows = sheet.max_row
 
